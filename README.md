@@ -2,6 +2,8 @@
 
 GtkLayerShell.Sharp is a C# wrapper for the GTK Layer Shell library, providing functionality to create panels and other desktop components using GTK in a Wayland environment.
 
+#### [Wrapper for GTK3](https://github.com/IlyaKotomin/GtkLayerShell.Sharp/tree/gtk3-gir.core) and [wrapper for GTK4](https://github.com/IlyaKotomin/GtkLayerShell.Sharp/tree/gtk4-gir.core)
+
 ## Features
 
 - Retrieve GTK Layer Shell library version information
@@ -13,9 +15,10 @@ GtkLayerShell.Sharp is a C# wrapper for the GTK Layer Shell library, providing f
 ## Requirements
 
 - .NET 6.0 or later
-- GTK Sharp
-- GTK 3.0 or later
-- GTK Layer Shell library
+- GTK 3 or GTK 4
+- Gir.Core GTK library
+- [GTK Layer Shell library if you use GTK 3](https://github.com/wmww/gtk-layer-shell)
+- [GTK4 Layer Shell library if you use GTK 4](https://github.com/wmww/gtk4-layer-shell)
 
 ## Installation
 
