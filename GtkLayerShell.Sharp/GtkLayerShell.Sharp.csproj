@@ -8,8 +8,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="GdkSharp" Version="3.24.24.117-develop" />
-      <PackageReference Include="GtkSharp" Version="3.24.24.117-develop" />
+      <PackageReference Include="GirCore.Gtk-4.0" Version="0.5.0" />
     </ItemGroup>
 
 </Project>
