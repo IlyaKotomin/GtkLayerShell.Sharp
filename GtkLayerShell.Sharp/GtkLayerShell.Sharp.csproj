@@ -7,4 +7,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="GdkSharp" Version="3.24.24.117-develop" />
+      <PackageReference Include="GtkSharp" Version="3.24.24.117-develop" />
+    </ItemGroup>
+
 </Project>
